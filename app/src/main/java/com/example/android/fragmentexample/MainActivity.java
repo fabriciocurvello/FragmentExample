@@ -19,7 +19,15 @@ package com.example.android.fragmentexample;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+    /*
+    LINK DO CODELAB: https://codelabs.developers.google.com/codelabs/advanced-android-training-fragments/
+     */
+
 public class MainActivity extends AppCompatActivity {
+
+    /*
+    LINK DO CODELAB: https://codelabs.developers.google.com/codelabs/advanced-android-training-fragments/
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
