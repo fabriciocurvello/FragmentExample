@@ -21,7 +21,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.fragmentexample.MainActivity">
+    tools:context="com.example.android.fragmentexample2.MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -76,7 +76,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="com.example.android.fragmentexample.SimpleFragment"
+        android:name="com.example.android.fragmentexample2.SimpleFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"

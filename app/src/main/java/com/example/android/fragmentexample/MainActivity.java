@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.fragmentexample;
+package com.example.android.fragmentexample2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
