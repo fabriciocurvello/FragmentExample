@@ -21,7 +21,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.fragmentexample2.MainActivity">
+    tools:context="com.example.android.fragmentexample.MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -74,8 +74,8 @@
             tools:layout_editor_absoluteY="288dp"/>
     </ScrollView>
 
-    <fragment
-        android:id="@+id/fragment"
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:name="com.example.android.fragmentexample2.SimpleFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -83,5 +83,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_simple" />
+
+    <Button
+        android:id="@+id/abrir_botao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/open"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </android.support.constraint.ConstraintLayout>
