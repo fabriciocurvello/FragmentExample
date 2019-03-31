@@ -25,9 +25,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    /*
-    LINK DO CODELAB: https://codelabs.developers.google.com/codelabs/advanced-android-training-fragments/
-     */
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
